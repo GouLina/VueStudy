@@ -3,10 +3,9 @@
     <h1>mmmm</h1>
     <div class="box">
       <Left></Left>
+      <!-- <Right></Right> -->
       <Right></Right>
-
     </div>
-    
   </div>
 </template>
 
@@ -20,17 +19,17 @@ import Right from '@/components/right.vue'
 export default {
   name: 'App',
   components: {
-   Left,
-   Right
+   Right,
+   Left
   }
 }
 </script>
 
-<style lang="less">
+<style>
 #app {
 
   padding: 30px;
-  // height: 1000px;
+  /* height: 1000px; */
   color: #2c3e50;
   background-color: greenyellow;
 }
